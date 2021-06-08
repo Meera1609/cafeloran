@@ -1,0 +1,125 @@
+body
+{
+  font-family: Montserrat;
+  background-color:black;
+  text-align: center;
+}
+
+.title-heading
+{
+  font-size: 180%;
+  text-align:left;
+  padding-right:10%;
+  padding-top: 10%;
+}
+.title-image
+  {
+   height: 280px;
+   float: left;
+   position: relative;
+   left:7%;
+  }
+.container--fluid
+  {
+    padding: 7% 15%;
+  }
+.colored-section
+{
+  background-color:#000000;
+  color: #fff;
+  padding-top:5%;
+  padding-bottom:3%;
+}
+.grey-section
+{
+  color:white;
+  text-align: left;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color:#161616;
+}
+.footer-link
+{
+  padding-left: 20px;
+}
+
+
+
+#title
+{
+  background-color: black;
+  color:white;
+  text-align: left;
+}
+#title .container-fluid
+{
+  padding: 1% 12% 7%;
+}
+#testimonials
+{
+  background-color: black;
+
+}
+.testimonial-text
+{
+  padding-top: 60px;
+  line-height: 2.5rem;
+}
+.testimonial-section
+{
+  background-color: black;
+  color:white;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+.testimonial-image
+{
+  width:30%;
+  margin:20px;
+}
+.testimonial-image1
+{
+  width:20%;
+  margin:20px;
+}
+.about-section
+{
+
+  line-height: 2rem;
+  colour:"white";
+}
+#contact{
+
+  padding: 20px 20px;
+}
+
+@media (max-width: 1028px)
+{
+.title-heading
+{
+    text-align: center;
+}
+.title-image
+{
+  text-align: center;
+}
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family:"Ubuntu";
+}
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
